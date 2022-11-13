@@ -1,0 +1,11 @@
+This is 3 tier resources deployed for an application environment.
+
+first is an app gateway which receive an request from internet, where firewall is enabled.
+
+app-gateway redirect request to app ui app service.
+
+than request went to private app-gateway which connect to services.
+
+and eventually to sql-server. 
+
+We can enable the private endpoint for sql-server.
