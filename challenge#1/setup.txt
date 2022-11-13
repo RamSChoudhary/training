@@ -8,4 +8,9 @@ than request went to private app-gateway which connect to services.
 
 and eventually to sql-server. 
 
-We can enable the private endpoint for sql-server.
+We can enable the private endpoint for sql-server..
+
+Please replace the tenant-id and subscription-id in dev.tfvars and tf-providers.tf file and execute the terraform commands.
+
+First execute the "subs_tfstate" module this will create the state file into storage account
+
